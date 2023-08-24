@@ -1,0 +1,13 @@
+/* Write your CSS here */
+
+@media screen and (min-width: 768px) {
+  .about-sm-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-lg-image {
+    display: none;
+  }
+}

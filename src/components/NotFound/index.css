@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.not-found-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.lost-you-way {
+  font-family: 'Roboto';
+  color: #000000;
+  margin-top: 0px;
+}
+
+.not-found-description {
+  font-family: 'Roboto';
+  color: #616e7c;
+  margin-top: 0px;
+}
+@media screen and (min-width: 768px) {
+  .not-fond-image {
+    height: 350px;
+    width: 330px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .not-fond-image {
+    height: 240px;
+    width: 240px;
+  }
+  .lost-you-way {
+    font-family: 'Roboto';
+    color: #000000;
+    margin-top: 0px;
+    font-size: 24px;
+  }
+  .not-found-description {
+    font-family: 'Roboto';
+    color: #616e7c;
+    margin-top: 0px;
+    font-size: 13px;
+    text-align: center;
+  }
+}

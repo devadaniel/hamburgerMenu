@@ -1,0 +1,12 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) {
+  .home-sm-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-lg-image {
+    display: none;
+  }
+}

@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.navbar-header-container {
+}
+.logo-menu-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.website-image {
+  height: 50px;
+  width: 50px;
+}
+.menu-icon {
+  height: 25px;
+  width: 25px;
+  margin-top: 20px;
+}
+.Menu-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.close-icon-button {
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-left: 100px;
+  margin-top: 0px;
+}
+.link-list-items-container {
+  list-style-type: none;
+}
+.home-icon {
+  height: 30px;
+  width: 30px;
+  padding-top: 3px;
+}
+.home-list-item,
+.about-items {
+  display: flex;
+}
+.home-heading,
+.about-heading {
+  font-family: 'Roboto';
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.nav-link-items {
+  text-decoration: none;
+  color: #000000;
+}
+.popup-container {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
